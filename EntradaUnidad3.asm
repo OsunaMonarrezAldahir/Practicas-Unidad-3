@@ -16,7 +16,7 @@ mensajeValido BYTE "EAX = 1: Entrada no vacia", 0
 .code
 main PROC
 
-    ; CASO 1: Simular una entrada vacia.
+    ; CASO 1: Se simula una entrada vacia.
     mov edx, OFFSET mensajeCaso1
     call WriteString                ; Mostrar el caso que se probara.
     call Crlf
@@ -67,14 +67,14 @@ main ENDP
 
 ValidarNoVacia PROC
 
-    cmp ecx, 0                     
-    je esVacia                      
+    cmp ecx, 0     ;Compara la longitud con cero          
+    je esVacia     ;Si eax=0 entonces salta a la parte de cadena vacia                 
 
-    mov eax, 1                     
+    mov eax, 1     ; Si la longitud es mayor a cero entecen la cadena no vacia                
     ret                             
 
 esVacia:
-    mov eax, 0                     
+    mov eax, 0     ; Si la longitud es 0 entonces es cadena vacia                
     ret                            
 ValidarNoVacia ENDP
 
