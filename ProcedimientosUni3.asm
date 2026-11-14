@@ -30,7 +30,8 @@ main PROC
 
   mov edx, OFFSET mensajeFin
   call WriteString
-  call crlfs
+  call crlf
+  exit
 main ENDP 
 
 ;mostrar el mensaje y regresar al punto despues del llamado
