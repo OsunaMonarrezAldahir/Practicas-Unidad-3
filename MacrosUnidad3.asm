@@ -20,11 +20,12 @@ multiplicar MACRO cantidad1, cantidad2
     mov ebx, cantidad2
     mul ebx
 ENDM
-
+; Comentarios que le mostraremos al usuario
 .data
 mensajeBienvenida BYTE "bienvenido al sistema de ventas: ", 0
 mensajeFin BYTE "hasta luego, vuelva pronto", 0
 
+; Datos que seran multiplicados por la macro
 numero1 DWORD 7
 numero2 DWORD 8
 mensajeResultado BYTE "Resultado de la multiplicacion: ", 0
