@@ -6,7 +6,7 @@ Alumno: Osuna Monarrez Aldahir
 Horario: 8-9
 Docente: Dr José Luis Medina Jiménez
 
-Practica 1. Procedimientos. El programa muestra un mensaje de inicio, llama dos veces a un procedimiento que imprime un aviso y termina con otro mensaje. Al ejecutarlo comprobe que un mismo procedimiento se puede reutilizar varias veces y que después de cada llamad el programa sigue normalmente desde donde se quedo
+Practica 1. Procedimientos. El programa muestra un mensaje de inicio, llama dos veces a un procedimiento que imprime un aviso y termina con otro mensaje. Al ejecutarlo comprobe que un mismo procedimiento se puede reutilizar varias veces y que despues de cada llamad el programa sigue normalmente desde donde se quedo
  
 Practica 2. Anidados. El programa llama a la rutina A, y A llama a la rutina B; cada una imprime un mensaje al entrar y al salir. Al ejecutarlo comprobe el orden de regreso: primero termina B y regresa a A, y luego A regresa al programa principal
  
